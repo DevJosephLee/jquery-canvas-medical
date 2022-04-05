@@ -1,0 +1,79 @@
+.column-half {
+  width: 50%;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.justify-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-space-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.margin-adj {
+  margin: 0 4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+nav {
+  border-bottom: 1px solid black;
+  padding: 1rem 0;
+  margin-bottom: 4rem;
+}
+
+footer {
+  background-color: #525351;
+  color: white;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.hero-image-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.overlay-text {
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,93 @@
+.column-half {
+  width: 50%;
+}
+
+.row {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+
+.margin-adj {
+  margin: 0 4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@mixin logo {
+  width: 100px;
+  height: 25px;
+}
+
+@mixin navButtons {
+  text-decoration: none;
+}
+
+@mixin contactUsButton {
+
+}
+
+@mixin heroImage {
+  width: 100%;
+}
+
+@mixin getStartedButton {
+
+}
+
+.contact-us-button {
+
+}
+
+nav {
+  border-bottom: 1px solid black;
+  padding: 1rem 0;
+  margin-bottom: 4rem;
+}
+
+footer {
+  background-color: #525351;
+  color: white
+}
+
+.hero-image {
+  @include heroImage();
+}
+
+.hero-image-container {
+  position: relative
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.overlay-text {
+  position: absolute;
+}
