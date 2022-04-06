@@ -1,9 +1,9 @@
 $(".contact-us-button").click(function() {
-  $(".hidden").attr("class", "show");
+  $(".modal-hidden").attr("class", "modal-show");
 })
 
 $(".modal-close-button").click(function() {
-  $(".show").attr("class", "hidden");
+  $(".modal-show").attr("class", "modal-hidden");
 })
 
 const viewPages = $(".show")
