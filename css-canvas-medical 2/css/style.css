@@ -61,7 +61,15 @@
   display: block;
 }
 
+.modal-show {
+  display: block;
+}
+
 .hidden {
+  display: none;
+}
+
+.modal-hidden {
   display: none;
 }
 
@@ -139,6 +147,11 @@ footer {
 
 p {
   font-family: "Avenir", sans-serif;
+}
+
+button,
+a {
+  cursor: pointer;
 }
 
 .hero-text {

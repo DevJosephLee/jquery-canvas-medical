@@ -53,9 +53,18 @@ $headerFontFamily: 'Tiempos Headline', sans-serif;
   display: block;
 }
 
+.modal-show {
+  display: block;
+}
+
 .hidden {
   display: none;
 }
+
+.modal-hidden {
+  display: none;
+}
+
 
 .overlay {
   display: absolute;
@@ -129,7 +138,11 @@ footer {
 
 p {
   font-family: $pFontFamily;
+}
 
+button,
+a {
+  cursor: pointer;
 }
 
 .hero-text {
