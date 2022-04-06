@@ -11,124 +11,170 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <nav>
-        <div class="row align-center justify-space-between margin-adj">
-          <div class="column-half">
-            <a href="#"><img src="images/logo-blue.svg" class="logo"/></a>
-          </div>
-          <div class="column-half">
-            <div class="row align-center justify-space-between">
-              <a href="#" class="nav-button">Product</a>
-              <a href="#" class="nav-button">Implementation</a>
-              <a href="#" class="nav-button">About Us</a>
-              <a href="#" class="nav-button">Blog</a>
-              <a href="#" class="contact-us-button">Contact Us</a>
+  <div data-view="landing" class="show">
+    <div class="container">
+      <header>
+        <nav>
+          <div class="row align-center justify-space-between margin-adj">
+            <div class="column-half">
+              <a href="#"><img src="images/logo-blue.svg" class="logo" data-view="landing"/></a>
             </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class="margin-adj">
-        <div class="hero-image-container">
-          <div class="overlay">
-            <div class="overlay-text">
-              <div class="column-60">
-                <h1 class="header hero-header">
-                  The EMR Reimagined for Primary Care
-                </h1>
-                <p class="hero-text">
-                  Can't remember the last time you talked with a patient without focusing on the EMR?
-                  Canvas lets you rediscover joy in the work you do. Capture meaningful data, identify gaps in
-                  care, and move seamlessly between tasks within the platform. You stay present with patients
-                  while your whole care team stays up-to-speed. Be a better doctor with Canvas, designed for primary
-                  care providers with the help of primary care providers.
-                </p>
-                <a href="#" class="get-started-button">Get Started</a>
+            <div class="column-half">
+              <div class="row align-center justify-space-between">
+                <a href="#" class="nav-button" data-view="product">Product</a>
+                <a href="#" class="nav-button">Implementation</a>
+                <a href="#" class="nav-button">About Us</a>
+                <a href="#" class="nav-button">Blog</a>
+                <a href="#" class="contact-us-button">Contact Us</a>
               </div>
             </div>
           </div>
-          <img src="images/hero.jpg" alt="hero" class="hero-image" />
-        </div>
-      </div>
-      <div class="cpc-section">
-        <div class="text-center">
-          <h2 class="header cpc-header">Clinicians Prefer Canvas</h2>
-          <p>Physician owned primary care practices across the country have</p>
-          <p>already made Canvas the fabric of their care.</p>
-        </div>
-        <div class="row justify-space-around margin-top">
-          <div>
-            <h4 class="cpc-text">Cascade Family Practice, Portland OR</h4>
-            <h4 class="cpc-text">Temescal Creek Medicine, Oakland CA</h4>
-            <h4 class="cpc-text">San Juan Healthcare, Friday Harbor WA</h4>
-          </div>
-          <div>
-            <h4 class="cpc-text">Ward Medical Clinic, Bonifay FL</h4>
-            <h4 class="cpc-text">Caribou Medical, Towanda PA</h4>
-            <h4 class="cpc-text">Bay Tree Family Care, Red Bay AL</h4>
-          </div>
-        </div>
-      </div>
-      <div class="rtlm-section">
+        </nav>
+      </header>
+      <main>
         <div class="margin-adj">
-          <div class="row align-center">
-            <div class="column-half">
-              <h2 class="header cpc-header">Ready to learn more?</h2>
-              <p>Schedule a private meeting now</p>
+          <div class="hero-image-container">
+            <div class="overlay">
+              <div class="overlay-text">
+                <div class="column-60">
+                  <h1 class="header hero-header">
+                    The EMR Reimagined for Primary Care
+                  </h1>
+                  <p class="hero-text">
+                    Can't remember the last time you talked with a patient without focusing on the EMR?
+                    Canvas lets you rediscover joy in the work you do. Capture meaningful data, identify gaps in
+                    care, and move seamlessly between tasks within the platform. You stay present with patients
+                    while your whole care team stays up-to-speed. Be a better doctor with Canvas, designed for primary
+                    care providers with the help of primary care providers.
+                  </p>
+                  <a href="#" class="get-started-button">Get Started</a>
+                </div>
+              </div>
             </div>
-            <div class="column-half">
-              <div class="row justify-end">
-                <button class="get-started-button">Get Started</button>
+            <img src="images/hero.jpg" alt="hero" class="hero-image" />
+          </div>
+        </div>
+        <div class="cpc-section">
+          <div class="text-center">
+            <h2 class="header cpc-header">Clinicians Prefer Canvas</h2>
+            <p>Physician owned primary care practices across the country have</p>
+            <p>already made Canvas the fabric of their care.</p>
+          </div>
+          <div class="row justify-space-around margin-top">
+            <div>
+              <h4 class="cpc-text">Cascade Family Practice, Portland OR</h4>
+              <h4 class="cpc-text">Temescal Creek Medicine, Oakland CA</h4>
+              <h4 class="cpc-text">San Juan Healthcare, Friday Harbor WA</h4>
+            </div>
+            <div>
+              <h4 class="cpc-text">Ward Medical Clinic, Bonifay FL</h4>
+              <h4 class="cpc-text">Caribou Medical, Towanda PA</h4>
+              <h4 class="cpc-text">Bay Tree Family Care, Red Bay AL</h4>
+            </div>
+          </div>
+        </div>
+        <div class="rtlm-section">
+          <div class="margin-adj">
+            <div class="row align-center">
+              <div class="column-half">
+                <h2 class="header cpc-header">Ready to learn more?</h2>
+                <p>Schedule a private meeting now</p>
+              </div>
+              <div class="column-half">
+                <div class="row justify-end">
+                  <button class="get-started-button">Get Started</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="hidden">
-        <div class="overlay row justify-center align-center">
-          <div class="modal">
-            <div class="row justify-center align-center">
-              <h2>Coming soon!</h2>
-            </div>
-            <div class="row justify-center align-center">
-              <button class="modal-close-button">Close</button>
+        <div class="hidden">
+          <div class="overlay row justify-center align-center">
+            <div class="modal">
+              <div class="row justify-center align-center">
+                <h2>Coming soon!</h2>
+              </div>
+              <div class="row justify-center align-center">
+                <button class="modal-close-button">Close</button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
-    <footer>
-      <div class="row margin-adj">
-        <div class="column-half padding-top">
-          <img src="images/logo-white.png" alt="logo-white" class="logo"/>
-          <div class="margin-top">
-            <p>2307 Irving Stree, Suite 228</p>
-            <p>San Francisco CA 94122</p>
-            <p>(800) 370-1416</p>
-            <p>info@canvasmedical.com</p>
+      </main>
+      <footer>
+        <div class="row margin-adj">
+          <div class="column-half padding-top">
+            <img src="images/logo-white.png" alt="logo-white" class="logo" />
+            <div class="margin-top">
+              <p>2307 Irving Stree, Suite 228</p>
+              <p>San Francisco CA 94122</p>
+              <p>(800) 370-1416</p>
+              <p>info@canvasmedical.com</p>
+            </div>
+          </div>
+          <div class="column-half">
+            <div class="row">
+              <div class="column-half">
+                <h2 class="footer-header">Company</h2>
+                <p><a href="#" class="footer-link">About Us</a></p>
+                <p><a href="#" class="footer-link">Blog</a></p>
+              </div>
+              <div class="column-half">
+                <h2 class="footer-header">Product</h2>
+                <p><a href="#" class="footer-link" data-view="product">Product</a></p>
+                <p><a href="#" class="footer-link">Implementation</a></p>
+                <p><a href="#" class="footer-link">For Health Plans</a></p>
+                <p><a href="#" class="footer-link">Security</a></p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="column-half">
-          <div class="row">
+      </footer>
+    </div>
+  </div>
+  <div data-view="product" class="show hidden">
+    <div class="container">
+      <header>
+        <nav>
+          <div class="row align-center justify-space-between margin-adj">
             <div class="column-half">
-              <h2 class="footer-header">Company</h2>
-              <p><a href="#" class="footer-link">About Us</a></p>
-              <p><a href="#" class="footer-link">Blog</a></p>
+              <a href="#"><img src="images/logo-blue.svg" class="logo" data-view="landing"/></a>
             </div>
             <div class="column-half">
-              <h2 class="footer-header">Product</h2>
-              <p><a href="#" class="footer-link">Product</a></p>
-              <p><a href="#" class="footer-link">Implementation</a></p>
-              <p><a href="#" class="footer-link">For Health Plans</a></p>
-              <p><a href="#" class="footer-link">Security</a></p>
+              <div class="row align-center justify-space-between">
+                <a href="#" class="nav-button">Product</a>
+                <a href="#" class="nav-button">Implementation</a>
+                <a href="#" class="nav-button">About Us</a>
+                <a href="#" class="nav-button">Blog</a>
+                <a href="#" class="contact-us-button">Contact Us</a>
+              </div>
             </div>
           </div>
+        </nav>
+      </header>
+      <main>
+        <div class="margin-adj">
+          <div class="hero-image-container">
+            <div class="overlay">
+              <div class="overlay-text">
+                <div class="column-60">
+                  <h1 class="header hero-header">
+                    It's the foundation for patient-centered primary care.
+                  </h1>
+                  <p class="hero-text">
+                    Canvas creates a shared understanding of patient care across Clinicians,
+                    staff, and patients themselves -- making you more productive, less stressed,
+                    and adding just a bit more joy into your practice of medicine.
+                  </p>
+                  <a href="#" class="get-started-button">Get Started</a>
+                </div>
+              </div>
+            </div>
+            <img src="images/product/product-header.jpg" alt="hero" class="hero-image" />
+          </div>
         </div>
-      </div>
-    </footer>
+      </main>
+    </div>
   </div>
   <script src="main.js"></script>
 </body>
