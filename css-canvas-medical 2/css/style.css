@@ -2,6 +2,14 @@
   width: 50%;
 }
 
+.column-60 {
+  width: 60%;
+}
+
+.padding-top {
+  padding-top: 1.6rem;
+}
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,19 +49,102 @@
   margin: 0 4rem;
 }
 
+.margin-top {
+  margin-top: 3rem;
+}
+
 .text-center {
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.overlay {
+  display: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal {
+  width: 500px;
+  height: 250px;
+  background-color: white;
+  position: relative;
+  padding: 2rem;
+}
+
+.contact-us-button {
+  text-decoration: none;
+  background-color: #294363;
+  color: white;
+  border: none;
+  font-family: "Avenir", sans-serif;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+}
+
+.get-started-button {
+  text-decoration: none;
+  background-color: #294363;
+  color: white;
+  border: none;
+  font-family: "Avenir", sans-serif;
+  border-radius: 3px;
+  padding: 0.8rem 3rem;
+  font-size: 1.3rem;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: #B0B0B0;
+}
+
+.modal-close-button {
+  text-decoration: none;
+  background-color: #294363;
+  color: white;
+  border: none;
+  font-family: "Avenir", sans-serif;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  bottom: 3rem;
+}
+
+.logo {
+  width: 100px;
+}
+
 nav {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #F3F4F5;
   padding: 1rem 0;
   margin-bottom: 4rem;
+  font-family: "Avenir", sans-serif;
 }
 
 footer {
   background-color: #525351;
   color: white;
+  padding: 7rem 0;
+}
+
+p {
+  font-family: "Avenir", sans-serif;
+}
+
+.hero-text {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-bottom: 3.5rem;
 }
 
 .hero-image {
@@ -62,6 +153,7 @@ footer {
 
 .hero-image-container {
   position: relative;
+  color: white;
 }
 
 .overlay {
@@ -75,5 +167,50 @@ footer {
 
 .overlay-text {
   position: absolute;
+  top: 3rem;
+  left: 3rem;
+  bottom: 3rem;
+  right: 3rem;
+}
+
+.header {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
+.hero-header {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.cpc-section {
+  background-color: #FAFAFA;
+  margin-top: 60px;
+  padding: 3rem;
+  color: #6E6E6E;
+}
+
+.cpc-header {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.cpc-text {
+  font-weight: 500;
+  font-family: "Avenir", sans-serif;
+}
+
+.rtlm-section {
+  color: #6E6E6E;
+}
+
+.footer-header {
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=style.css.map */
